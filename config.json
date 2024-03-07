@@ -1,10 +1,19 @@
 {
-    "title":"Meekdai",
-    "displayTitle":"eekdai",
-    "subTitle":"童话是一种生活态度，仅此而已。",
-    "homeUrl":"https://blog.meekdai.com",
+    "title":"LuMing's Blog",
+    "displayTitle":"鹿鸣",
+    "subTitle":"改变别人,不如改变自己",
+    "homeUrl":"https://luming8.github.io",
     "avatarUrl":"https://meekdai.com/avatar.svg",
     "faviconUrl":"https://meekdai.com/favicon.svg",
-    "singlePage":[],
-    "GMEEK_VERSION":"last"
+    "singlePage":["link","about"],
+    "email":"845674110@qq.com",
+    "startSite":"03/07/2024",
+    "filingNum":"浙ICP备20023628号",
+    "onePageListNum":15,
+    "commentLabelColor":"#006b75",
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    "i18n":"CN",
+    "nightTheme":"dark_colorblind",
+    "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
+    "GMEEK_VERSION":"main"
 }
