@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LuMing's Blog</title><link>https://luming8.github.io</link><description>改变别人,不如改变自己</description><copyright>LuMing's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://telegraph-image-yht.pages.dev/file/64c373ac72893bf74beb0.png</url><title>avatar</title><link>https://luming8.github.io</link></image><lastBuildDate>Fri, 22 Mar 2024 15:23:33 +0000</lastBuildDate><managingEditor>LuMing's Blog</managingEditor><ttl>60</ttl><webMaster>LuMing's Blog</webMaster><item><title>贝壳网登录密码逆向分析</title><link>https://luming8.github.io/post/bei-ke-wang-deng-lu-mi-ma-ni-xiang-fen-xi.html</link><description>### 声明：本帖仅供学习交流，严禁将以下技术用于非法用途，如有不妥请联系删除！&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LuMing's Blog</title><link>https://luming8.github.io</link><description>改变别人,不如改变自己</description><copyright>LuMing's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://telegraph-image-yht.pages.dev/file/64c373ac72893bf74beb0.png</url><title>avatar</title><link>https://luming8.github.io</link></image><lastBuildDate>Sun, 24 Mar 2024 16:07:02 +0000</lastBuildDate><managingEditor>LuMing's Blog</managingEditor><ttl>60</ttl><webMaster>LuMing's Blog</webMaster><item><title>九酷音乐网反调试分析</title><link>https://luming8.github.io/post/jiu-ku-yin-le-wang-fan-diao-shi-fen-xi.html</link><description>## 声明：本帖仅供学习交流，严禁将以下技术用于非法用途，如有不妥请联系删除！  &#13;
+&#13;
+网址: aHR0cHM6Ly93d3cuOWt1LmNvbS9wbGF5Lzc5ODgyLmh0bQ==  &#13;
+&#13;
+今天分析一个音乐网站，这个网站有点意思，f12打开开发者工具，你会发现没用，那我们就手动打开开发者工具,  &#13;
+打开后网页直接关闭，直叫你一脸懵波。</description><guid isPermaLink="true">https://luming8.github.io/post/jiu-ku-yin-le-wang-fan-diao-shi-fen-xi.html</guid><pubDate>Sun, 24 Mar 2024 16:06:39 +0000</pubDate></item><item><title>贝壳网登录密码逆向分析</title><link>https://luming8.github.io/post/bei-ke-wang-deng-lu-mi-ma-ni-xiang-fen-xi.html</link><description>### 声明：本帖仅供学习交流，严禁将以下技术用于非法用途，如有不妥请联系删除！&#13;
 ---&#13;
 网址: aHR0cHM6Ly9iai5rZS5jb20v&#13;
 &#13;
