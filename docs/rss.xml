@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LuMing's Blog</title><link>https://luming8.github.io</link><description>改变别人,不如改变自己</description><copyright>LuMing's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://telegraph-image-yht.pages.dev/file/64c373ac72893bf74beb0.png</url><title>avatar</title><link>https://luming8.github.io</link></image><lastBuildDate>Fri, 29 Mar 2024 13:58:27 +0000</lastBuildDate><managingEditor>LuMing's Blog</managingEditor><ttl>60</ttl><webMaster>LuMing's Blog</webMaster><item><title>网易云音乐mp3直链下载</title><link>https://luming8.github.io/post/wang-yi-yun-yin-le-mp3-zhi-lian-xia-zai.html</link><description>第一步：获取歌曲 id&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LuMing's Blog</title><link>https://luming8.github.io</link><description>改变别人,不如改变自己</description><copyright>LuMing's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://telegraph-image-yht.pages.dev/file/64c373ac72893bf74beb0.png</url><title>avatar</title><link>https://luming8.github.io</link></image><lastBuildDate>Mon, 20 May 2024 16:08:56 +0000</lastBuildDate><managingEditor>LuMing's Blog</managingEditor><ttl>60</ttl><webMaster>LuMing's Blog</webMaster><item><title>网易云音乐mp3直链下载</title><link>https://luming8.github.io/post/wang-yi-yun-yin-le-mp3-zhi-lian-xia-zai.html</link><description>第一步：获取歌曲 id&#13;
 打开网易云音乐，随便找到一首歌，复制浏览器网址中的 id，或者客户端中分享歌曲链接中的 id&#13;
 &#13;
 https://music.163.com/song?id=1336856777&#13;
@@ -39,5 +39,5 @@ https://music.163.com/song/media/outer/url?id=歌曲ID.mp3&#13;
 那我们的任务就是看下这个密码是如何从明文变成现在的密文的。</description><guid isPermaLink="true">https://luming8.github.io/post/bei-ke-wang-deng-lu-mi-ma-ni-xiang-fen-xi.html</guid><pubDate>Fri, 22 Mar 2024 09:53:56 +0000</pubDate></item><item><title>关于</title><link>https://luming8.github.io/about.html</link><description>本人半瓶水程序猿一枚，热爱代码，&#13;
 平时喜欢折腾网站，希望在这里和大家交流学习，共同进步！！！&#13;
 &#13;
-&lt;span id="busuanzi"&gt;&#13;
+&lt;span id='busuanzi'&gt;&#13;
 :heart:感谢第&lt;span&gt;&lt;/span&gt;位小伙伴的第&lt;span&gt;&lt;/span&gt;次访问关于页面。</description><guid isPermaLink="true">https://luming8.github.io/about.html</guid><pubDate>Thu, 07 Mar 2024 09:15:18 +0000</pubDate></item><item><title>友情链接</title><link>https://luming8.github.io/link.html</link><description>这是友情链接。</description><guid isPermaLink="true">https://luming8.github.io/link.html</guid><pubDate>Thu, 07 Mar 2024 09:22:00 +0000</pubDate></item></channel></rss>
