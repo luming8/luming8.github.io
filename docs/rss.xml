@@ -1,5 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LuMing's Blog</title><link>https://luming8.github.io</link><description>改变别人,不如改变自己</description><copyright>LuMing's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://telegraph-image-yht.pages.dev/file/64c373ac72893bf74beb0.png</url><title>avatar</title><link>https://luming8.github.io</link></image><lastBuildDate>Mon, 20 May 2024 16:08:56 +0000</lastBuildDate><managingEditor>LuMing's Blog</managingEditor><ttl>60</ttl><webMaster>LuMing's Blog</webMaster><item><title>网易云音乐mp3直链下载</title><link>https://luming8.github.io/post/wang-yi-yun-yin-le-mp3-zhi-lian-xia-zai.html</link><description>第一步：获取歌曲 id&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LuMing's Blog</title><link>https://luming8.github.io</link><description>改变别人,不如改变自己</description><copyright>LuMing's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://telegraph-image-yht.pages.dev/file/64c373ac72893bf74beb0.png</url><title>avatar</title><link>https://luming8.github.io</link></image><lastBuildDate>Mon, 06 Jan 2025 13:49:00 +0000</lastBuildDate><managingEditor>LuMing's Blog</managingEditor><ttl>60</ttl><webMaster>LuMing's Blog</webMaster><item><title>Python excejs 执行js文件的时候 报编码错误的问题</title><link>https://luming8.github.io/post/Python%20excejs%20-zhi-xing-js-wen-jian-de-shi-hou-%20-bao-bian-ma-cuo-wu-de-wen-ti.html</link><description># Python excejs 执行js文件的时候 报编码错误的问题&#13;
+##执行js的时候报图中的编码错误，直接执行js文件时能正常编译，在网上未找到关于这个问题的文章 头疼了好久 最终在各位大佬的帮助下解决了问题，便记录了下来：&#13;
+&#13;
+![alt text](https://img2023.cnblogs.com/blog/2367790/202305/2367790-20230530150838227-688705430.png)&#13;
+&#13;
+&#13;
+## 解决办法：&#13;
+&#13;
+一、修改报错文件 subprocess.py 中的 encoding 编码： encoding=None ---&gt; encoding='utf-8'&#13;
+&#13;
+![alt text](https://img2023.cnblogs.com/blog/2367790/202305/2367790-20230530150802921-1981061229.png)&#13;
+&#13;
+二 、在引包的时候直接修改encoding得值，使用方便 不用修改 源代码&#13;
+&#13;
+```python&#13;
+  import subprocess&#13;
+  from functools import partial&#13;
+  #处理execjs编码报错问题, 需在 import execjs之前&#13;
+  subprocess.Popen = partial(subprocess.Popen, encoding='utf-8')&#13;
+  import execjs&#13;
+```。</description><guid isPermaLink="true">https://luming8.github.io/post/Python%20excejs%20-zhi-xing-js-wen-jian-de-shi-hou-%20-bao-bian-ma-cuo-wu-de-wen-ti.html</guid><pubDate>Mon, 06 Jan 2025 13:48:18 +0000</pubDate></item><item><title>网易云音乐mp3直链下载</title><link>https://luming8.github.io/post/wang-yi-yun-yin-le-mp3-zhi-lian-xia-zai.html</link><description>第一步：获取歌曲 id&#13;
 打开网易云音乐，随便找到一首歌，复制浏览器网址中的 id，或者客户端中分享歌曲链接中的 id&#13;
 &#13;
 https://music.163.com/song?id=1336856777&#13;
