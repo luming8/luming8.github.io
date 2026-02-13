@@ -3,13 +3,34 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 时间会把最好的人留在身边
+title: LuMing's Blog
 subtitle: ''
 description: ''
 keywords:
 author: 鹿鸣
 language: zh-CN
 timezone: ''
+
+nav:
+  # Navigation bar logo image
+  logo: /logo.png
+  display_title: true
+  display_post_title: true
+  # Whether to fix navigation bar
+  fixed: false
+
+menu:
+首頁: / || fas fa-home
+時間軸: /archives/ || fas fa-archive
+標籤: /tags/ || fas fa-tags
+分類: /categories/ || fas fa-folder-open
+清單||fa fa-heartbeat:
+音樂: /music/ || fas fa-music
+照片: /Gallery/ || fas fa-images
+電影: /movies/ || fas fa-video
+友鏈: /link/ || fas fa-link
+關於: /about/ || fas fa-heart
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
